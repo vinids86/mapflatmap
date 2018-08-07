@@ -45,7 +45,6 @@ public class StreamTest {
         nestedList.add("b");
         list.add(nestedList);
 
-
         final List<String> actual = list.stream()
                 .flatMap(Collection::stream)
                 .map(String::toUpperCase)
