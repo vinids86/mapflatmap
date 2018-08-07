@@ -14,7 +14,7 @@ public class OptionalTest {
         final Optional<String> expected = Optional.of("TEST");
         final Optional<String> actual = Optional.of("test").map(String::toUpperCase);
 
-         assertEquals(expected, actual);
+        assertEquals(expected, actual);
     }
 
     @Test
